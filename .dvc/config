@@ -1,0 +1,4 @@
+['remote "remote_storage"']
+url = /Users/leor.finkelberg/DataBaseSQL/dvc_remote
+[core]
+remote = remote_storage
