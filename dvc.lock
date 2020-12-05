@@ -2,8 +2,8 @@ prepare:
   cmd: python src/prepare.py
   deps:
   - path: data/raw
-    md5: 63e61522d209fc6254e276c4b1a1d012.dir
-    size: 106551322
+    md5: a8a5252d9b14ab2c1be283822a86981a.dir
+    size: 106551158
     nfiles: 13397
   - path: src/prepare.py
     md5: c092d22587fa9f665fab8987c5cb72a6
