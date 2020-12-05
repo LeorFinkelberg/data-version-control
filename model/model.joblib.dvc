@@ -1,6 +1,6 @@
-md5: d54b2e17d8b3b0a2a093b818b0b71527
+md5: d84122d8943cd13a277e74a3ce82f712
 outs:
-- md5: a8af2816c61733a88387456eb2c80aef
+- md5: c58070a7238da6609c150dedae676840
   path: model.joblib
   cache: true
   metric: false
