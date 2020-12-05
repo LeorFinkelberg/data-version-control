@@ -22,22 +22,22 @@ train:
     md5: e19ea73b8f3c00f936ac60b878a15a85
     size: 216280
   - path: src/train.py
-    md5: 8afd0b487365179d1b8bcca7e57a64cd
-    size: 1371
+    md5: fba02db450a577e4eef0ce583a5dca3e
+    size: 1372
   outs:
   - path: model/model.joblib
-    md5: 04913790f4ba5b4b23c796437a34e2a5
-    size: 241062
+    md5: e135c98c2e055b2e7bb2d28a3fbd13b7
+    size: 1666605
 evaluate:
   cmd: python src/evaluate.py
   deps:
   - path: model/model.joblib
-    md5: 04913790f4ba5b4b23c796437a34e2a5
-    size: 241062
+    md5: e135c98c2e055b2e7bb2d28a3fbd13b7
+    size: 1666605
   - path: src/evaluate.py
     md5: b197277667d6269271fff4ae4af8a941
     size: 668
   outs:
   - path: metrics/accuracy.json
-    md5: dd26579e9fa9542c78dc5dba795deda8
-    size: 34
+    md5: 760e9c438efaf737b118d12344d27a90
+    size: 32
