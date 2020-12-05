@@ -4,4 +4,3 @@ url = /Users/leor.finkelberg/DataBaseSQL/dvc_remote
 remote = remote_storage
 [cache]
 dir = /Users/leor.finkelberg/DataBaseSQL/shared_cache
-type = symlink
